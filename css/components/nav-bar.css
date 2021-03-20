@@ -32,9 +32,11 @@
     position: absolute;
     left: 15px;
     bottom:15px;
+    
+}
+.nav__notification:hover{
     animation: notificationAnimation 2s ease-in-out infinite;
 }
-
 
 .nav__dot{
     background-color: tomato;
