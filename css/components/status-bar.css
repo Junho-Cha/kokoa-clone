@@ -13,6 +13,7 @@
 }
 .status-bar__column span{
     font-weight: 600;
+    font-size: 16px;
 }
 .status-bar__column:first-child span{
     margin-right: 5px;
