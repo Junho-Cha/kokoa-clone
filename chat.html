@@ -1,91 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="https://t1.kakaocdn.net/kakaocorp/admin/main-banner/579"/>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://t1.kakaocdn.net/kakaocorp/admin/main-banner/579"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat with you</title>
-</head>
-<body id="chat-screen">
+  </head>
+  <body id="chat-screen">
     <div class="status-bar chat__status-bar">
-        <div class="status-bar__column">
-            <span>SKT</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column rt-clock">
-            <span id="rt-clock">18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>99%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column rt-clock">
+        <span id="rt-clock">18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
-             
+
     <header class="alt-header">
-        <div class="alt-header__column">
-            <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
-        </div>
-        <div class="alt-header__column">
-            <h1 class="alt-header__title">Master</h1>
-        </div>
-        <div class="alt-header__column">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-bars fa-lg"></i></span>
-        </div>
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Master</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
     </header>
 
     <main class="main-screen main-chat">
-        <div class="chat__timestamp">
-            2021년 3월 20일 토요일
-        </div>
+      <div class="chat__timestamp">
+        <span class="chat-timestamp">2021년 3월 20일 토요일</span>
+      </div>
 
-        <div class="message-row">
-            <img src="https://avatars.githubusercontent.com/u/79741497?s=460&u=1be76c3f8ac4be78c221cf8da8259d93039dbc75&v=4" />
-            <div class="message-row__content">
-                <span class="message__author">Master</span>
-                <div class="message__info">
-                    <span class="message__bubble">Hi</span>
-                    <span class="message__time">14:58</span>
-                </div>
-            </div>
-        </div>
+      <div class="message-row">
+        <img src="https://placeimg.com/50/50/any" />
+        <!-- src="https://avatars.githubusercontent.com/u/79741497?s=460&u=1be76c3f8ac4be78c221cf8da8259d93039dbc75&v=4" -->
 
-        <div class="message-row message-row--own">
-            <div class="message-row__content">
-                <div class="message__info">
-                    <span class="message__bubble">Hi</span>
-                    <span class="message__time">15:35</span>
-                </div>
-            </div>
+        <div class="message-row__content">
+          <span class="message__author">Master</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi</span>
+            <span class="message__time">14:58</span>
+          </div>
         </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi</span>
+            <span class="message__time">15:35</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <form class="reply" action="">
-        <div class="reply__column">
-            <i class="far fa-plus-square fa-lg"></i>
-        </div>
-        <div class="reply__column">
-            <input type="text" placeholder="Write a message.." />
-            <i class="far fa-smile-wink fa-lg"></i>
-            <button>
-                <i class="fas fa-arrow-up fa-lg"></i>
-            </button>
-        </div>
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
     </form>
 
-
     <div id="no-mobile">
-        <span>Your screen have too big 'width'</span>
-        <span>Plz portrait mode</span>
+      <span>Your screen have too big 'width'</span>
+      <span>Plz portrait mode</span>
     </div>
 
-
     <script
-    src="https://kit.fontawesome.com/6478f529f2.js"
-crossorigin="anonymous"></script>
-<script src="clock.js"></script>
-</body>
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="clock.js"></script>
+  </body>
 </html>
